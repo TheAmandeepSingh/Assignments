@@ -1,2 +1,2 @@
 # Assignments
-General assignments - personal/test assignments
+General assignments

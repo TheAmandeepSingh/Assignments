@@ -3,19 +3,20 @@ using namespace std;
 
 class Base
 {
+protected:
     int a{};
     
 public:
+    int b{};
     Base() { cout << "Base constructor" << endl; }
    
 
     void fun() { cout << "Base Fun" << endl; }
 
-protected:
     ~Base() { cout << "Base Destructor" << endl; }
 };
 
-class Derived : public Base
+class Derived : private Base
 {
     int b{};
 
@@ -39,8 +40,8 @@ B b{}; // Well-formed?
 
 int main()
 {
-    // Base base;
-    // base.fun();
+    Base base;
+    base.fun();
 
     Derived derived;
     derived.fun();
