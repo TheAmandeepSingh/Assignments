@@ -1,2 +1,2 @@
 # Assignments
-General assignments
+Basic projects to try new concepts
