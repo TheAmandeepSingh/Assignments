@@ -1,0 +1,21 @@
+=====WEATHER=====
+What is the weather today?
+What is the weather in Paris?
+What is the weather forecast for next week?
+How does the weather look like for 19th March?
+
+Weather -> current location -> today
+Weather > Paris -> Today
+Weather -> Current Location -> Next week
+Weather -> Curren Location -> Specific Date/Time
+
+=====FACTS=====
+Tell me an interesting fact?
+Tell me an interesting fact about Paris?
+Tell me an interesting fact from history?
+
+
+Fact -> Any
+Fact -> Paris
+Fact -> History
+
